@@ -1,0 +1,74 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Warna berdasarkan Teori Warna */
+body {
+  background-color: #f0f0f0;
+  /* Warna latar belakang netral */
+}
+
+h1,
+h2 {
+  color: #333;
+  /* Warna teks utama */
+}
+
+p {
+  color: #666;
+  /* Warna teks sekunder */
+}
+
+a {
+  color: #007bff;
+  /* Warna tautan */
+}
+
+/* Penerapan Rasio Emas */
+.container {
+  width: 61.8%;
+  /* Lebar berdasarkan Rasio Emas */
+  margin: 0 auto;
+  /* Memusatkan elemen */
+}
+
+header,
+main,
+footer {
+  padding: 1.618% 2.5%;
+  /* Padding berdasarkan Rasio Emas */
+}
+
+.hero,
+.about {
+  background-color: #fff;
+  /* Warna latar belakang elemen */
+  border-radius: 5px;
+  /* Sudut membulat */
+  margin-bottom: 2.5%;
+  /* Jarak antar elemen */
+}
+
+/* Tipografi dan Gaya Lainnya */
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 1.618%;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin-bottom: 1.25%;
+}
+
+p {
+  line-height: 1.618;
+  /* Jarak antar baris */
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px solid #007bff;
+}
